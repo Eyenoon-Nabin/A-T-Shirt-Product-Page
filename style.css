@@ -58,7 +58,7 @@ body {
 .Hoddie-Card {
     background-color: aqua;
     width: 300px;
-    margin: 80 auto;
+    margin: 50px auto;
     padding: 20px;
     border-radius: 5px;
     text-align: center;
@@ -80,5 +80,16 @@ body {
     margin-bottom: 20px;
 }
 .buy-button{
+    text-decoration:overline ;
+    background-color: #27ae60;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
 
+}
+.shop-container {
+    display: flex;           /* The magic spell */
+    justify-content: center; /* Puts them in the middle */
+    gap: 20px;               /* Adds space between them */
 }
