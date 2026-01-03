@@ -1,0 +1,84 @@
+/* This styles the main page background */
+body {
+    font-family: Poppins, sans-serif; /* Makes font look clean */
+    background-color: #a0d8fd; /* Light grey background */
+}
+
+/* This styles the Card (The Box) */
+.product-card {
+    background-color: white;
+    width: 300px;           /* Fixed width for the card */
+    margin: 50px auto;      /* Top/Bottom 50px, Auto centers it left/right */
+    padding: 20px;          /* Space INSIDE the box */
+    border-radius: 10px;    /* Rounded corners */
+    text-align: center;     /* Centers text and images inside */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2); /* A subtle shadow effect */
+}
+
+/* Make the image fit perfectly */
+.product-img {
+    width: 100%;            /* Image takes 100% of the card width */
+    border-radius: 5px;
+}
+
+.product-title {
+    color: #ff0505;
+    font-size: 24px;
+    margin-bottom: 5px;     /* Small gap below title */
+}
+
+.price {
+    color: #e74c3c;         /* Reddish color for price */
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.description {
+    color: #666;            /* Grey text for description */
+    font-size: 14px;
+    line-height: 1.5;       /* Makes text easier to read */
+    margin-bottom: 20px;    /* Gap before the button */
+}
+
+/* Styling the Button */
+.buy-btn {
+    text-decoration: none;  /* Removes the underline from link */
+    background-color: #2ecc71; /* Green button */
+    color: white;
+    padding: 10px 20px;     /* Top/Bot 10px, Left/Right 20px */
+    border-radius: 5px;     /* Rounded button */
+    font-weight: bold;
+}
+
+/* Hover Effect: Changes color when you move mouse over button */
+.buy-btn:hover {
+    background-color: #27ae60; /* Darker green on hover */
+}
+.Hoddie-Card {
+    background-color: aqua;
+    width: 300px;
+    margin: 80 auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(228, 4, 4, 0.2);
+}
+.hoodie-images{
+    width: 100%;
+    border-radius: 5px;
+}
+.hoodie-title{
+    color: #7c0462;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.description-2{
+    color: #24011c;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.buy-button{
+
+}
